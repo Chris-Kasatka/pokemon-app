@@ -1,0 +1,261 @@
+/* 576!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media (min-width: 576px) {
+  .search-container{
+    height: 300px;
+    background: #313131;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+  }
+  .conditional-search-div{
+    height: 100%;
+  }
+  .search-div1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+  
+  .search-div2{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+
+
+
+  
+  .green-banner{
+    background: #4dad5b;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Exo';
+  }
+
+@media(min-width: 900px){
+ .green-banner{
+  width: 100%;
+  height: 50%;
+ } 
+}
+
+
+  
+  .green-bannerh3{
+    font-size: 125%;
+    width: 90%;
+    font-weight: 400;
+  }
+
+
+  
+.search-input-container-div{
+  width: 80%;
+}
+.pokemon-list > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  max-height: 150px;
+  background: white;
+  overflow: hidden;
+  width: 67%;
+  margin-left: 3px;
+  color: #999;
+  z-index: 3;
+}
+
+}
+
+/* 900!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media (min-width: 900px){
+ .search-container{
+    height: 150px;
+    width: 100%;
+    background: #313131;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: unset
+    }
+    
+    .conditional-search-div{
+      display: flex;
+      flex-direction: row;
+      align-items: unset;
+      max-width: 1024px;
+      height: 100%;
+      justify-content: space-between;
+    }
+    
+    .search-div1 {
+      width: 40%;
+    height: 100%;
+    margin-left: 64px;
+    align-items: unset;
+    }
+    .search-div2{
+      width: 40%;
+      height: 100%;
+      margin-right: 64px;
+    } 
+    .search-input-container-div{
+      width: 100%;
+    }
+    .pokemon-list > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      max-height: 150px;
+      background: white;
+      overflow: hidden;
+      width: 33.3%;
+      margin-left: 3px;
+      color: #999;
+      z-index: 3;
+  }
+  }
+  
+
+
+
+
+
+
+
+/* 1024!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@media (min-width: 1024px){
+ .conditional-search-div{
+  display: flex;
+  flex-direction: row;
+  align-items: unset;
+  max-width: 1024px;
+  height: 100%;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+ }
+ .search-div1{
+   margin-left: 18px;
+ }
+ .search-div2{
+   margin-right: 18px;
+ }
+  .pokemon-list > div {
+    width: 30%;
+    max-width: 340px;
+  }
+}
+
+
+
+
+
+
+
+
+  .search-input {
+    padding: 5px 15px;
+    width: 85%;
+    font-family: Exo;
+    font-size: 16px;
+    border: 3px solid #616161;
+  }
+
+  /* .pokemon-list > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    max-height: 150px;
+    background: white;
+    overflow: hidden;
+    width: 100%;
+    max-width: 320px;
+    color:#999;
+    z-index: 3;
+  } */
+
+
+  .search-h2{
+    font-family: "Exo",arial,sans-serif;
+    font-size: 167.5%;
+font-weight: 100;
+    color: white;
+  }
+  p.jim{
+    margin: 10px;
+    padding: 0;
+  } 
+  .jimmy{
+    width: 100%;
+  }
+  .jimmy:hover{
+    background-color: #1B53BA;
+  }
+
+
+  .search-input-container{
+    display: flex;
+  }
+
+  .button-result{
+    background-color: #ee6b2f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 15%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* #root > div > div > div > div.container > div > div{
+    display: block;
+    text-align: center;
+    max-height: 150px;
+    overflow: hidden;
+  } */
+
+  /* #root > div > div > div > div.container{
+    padding-top: 30px;
+    width: 300px;
+    margin: auto;
+    display: block;
+  } */
+
+  .jim{
+    text-transform: capitalize;
+    font-size: 16px; 
+    font-family: Exo;
+  }
+  .clicked-name{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: Exo;
+  }
+  /* .search-div1{
+    background-color: green;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+  } */
+
+
