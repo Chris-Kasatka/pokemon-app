@@ -99,6 +99,8 @@
     transition: 100ms ease-in;
     margin-bottom: 24px;
     padding: 12px;
+    display: flex;
+    justify-content: center;
 }
 
 .selectWrapper{
@@ -118,6 +120,7 @@
     margin-right: 18px;
 }
 .randomizer {
+
   background-color: #30a7d7;
   color: white;
   width: 40%;
