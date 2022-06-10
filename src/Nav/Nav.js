@@ -6,12 +6,14 @@ import StyleIcon from '@mui/icons-material/Style';
 import TvIcon from '@mui/icons-material/Tv';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import FeedIcon from '@mui/icons-material/Feed';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Nav = () => {
   const [show, setShow] = useState('nav-tab-img');
   const [Navs, setNavs] = useState('nav-div')
   const [grey, setGrey] = useState('home-tab')
   const [blue, setBlue] = useState('news-tab')
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   const navbarControl = () => {
     if (window.scrollY > 35) {
     setShow('nav-tab-img-none')
@@ -32,7 +34,10 @@ const Nav = () => {
 
   return (
     <nav className="main">
-      <div className="content-wrapper">
+      <div className='phantom-div'>
+      <button className='hamburger' onClick={() => {setIsNavExpanded(!isNavExpanded)}}><MenuIcon className="menu-icon"></MenuIcon></button>
+     
+      <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <div className="nav-div" id={grey}>
           <img
             className={show}
@@ -94,6 +99,7 @@ const Nav = () => {
             <div className="nav-link-label">News</div>
           </a>
         </div>
+      </div>
       </div>
     </nav>
   );

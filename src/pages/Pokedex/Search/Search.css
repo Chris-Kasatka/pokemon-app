@@ -13,6 +13,8 @@
 }
 .conditional-search-div{
   height: 100%;
+  max-width: 895px;
+  margin: auto;
 }
 .search-div1{
   width: 100%;
@@ -41,7 +43,7 @@
   overflow: auto;
 }
 .green-bannerh3{
-  font-size: 125%;
+  font-size: 120%;
   width: 90%;
   font-weight: 400;
 }
@@ -56,8 +58,7 @@ position: absolute;
 max-height: 150px;
 background: white;
 overflow: hidden;
-width: 67%;
-margin-left: 3px;
+width: 68%;
 color: #999;
 z-index: 3;
 }
@@ -86,20 +87,20 @@ z-index: 3;
       display: flex;
       flex-direction: row;
       align-items: unset;
-      max-width: 1024px;
+      width: 90%;
       height: 100%;
       justify-content: space-between;
     }
     .search-div1 {
       width: 40%;
     height: 100%;
-    margin-left: 64px;
+    margin-left: 18px;
     align-items: unset;
     }
     .search-div2{
       width: 40%;
       height: 100%;
-      margin-right: 64px;
+      margin-right: 18px;
     } 
     .search-input-container-div{
       width: 100%;
@@ -112,8 +113,7 @@ z-index: 3;
       max-height: 150px;
       background: white;
       overflow: hidden;
-      width: 33.3%;
-      margin-left: 3px;
+      width: 30.5%;
       color: #999;
       z-index: 3;
   }
@@ -139,11 +139,9 @@ z-index: 3;
   display: flex;
   flex-direction: row;
   align-items: unset;
-  max-width: 1024px;
   height: 100%;
-  width: 90%;
+  /* width: 90%; */
   justify-content: space-between;
-  margin: auto;
  }
  .search-div1{
    margin-left: 18px;
@@ -153,7 +151,7 @@ z-index: 3;
  }
   .pokemon-list > div {
     width: 30%;
-    max-width: 340px;
+    max-width: 300px;
   }
 }
   .search-input {

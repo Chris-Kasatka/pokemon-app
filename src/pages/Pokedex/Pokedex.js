@@ -5,6 +5,8 @@ import "./Pokedex.css";
 import Pokeball from "../../components/Pokeball/Pokeball";
 import Search from "./Search/Search";
 import LoopRoundedIcon from '@mui/icons-material/LoopRounded';
+import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
+
 
  
 

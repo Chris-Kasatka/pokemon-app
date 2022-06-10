@@ -3,7 +3,7 @@
 .pokedexResultsContainer {
   background-color: white;
   display: grid;
-  max-width: 1024px;
+  max-width: 895px;
   grid-template-columns: 1fr;
   width: 90%;
   margin: auto;
@@ -37,7 +37,7 @@
   background-color: white;
   width: 90%;
   margin: auto;
-  max-width: 1024px;
+  max-width: 895px;
 }
 
 
@@ -73,7 +73,7 @@
   justify-content: space-around;
   background-color: white;
   padding-bottom: 28px;
-  max-width: 1024px;
+  max-width: 895px;
 }
 
   .filtersContainer {
@@ -190,7 +190,7 @@
   background-color: white;
   flex-direction: column;
   align-items: center;
-  max-width: 1024px;
+  max-width: 895px;
 }
 .load-more-button {
   display: inline-block;
